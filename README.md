@@ -1,9 +1,4 @@
 Assignment
-Generate API key from : http://www.omdbapi.com/apikey.aspx
+This Movie App was designed using Styled Componenets with an API Call made using a Third party React Package called Axios, 
 
-### API Info
-* Method: `GET`
-* Search URL: `https://www.omdbapi.com/?s={MOVIE_NAME}&apikey={API_KEY}`
-* Movie Details URL: `https://www.omdbapi.com/?i={MOVIE_ID}&apikey={API_KEY}`
-
-
+with data fetched from the www.omdbapi.com website
