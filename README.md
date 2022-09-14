@@ -1,9 +1,4 @@
-# React Movie App - ReactJS Projects
-
-
-APIs Used
-[The Open Movie Database APIs](http://www.omdbapi.com/)
-
+Assignment
 Generate API key from : http://www.omdbapi.com/apikey.aspx
 
 ### API Info
