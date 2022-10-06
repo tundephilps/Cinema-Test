@@ -1,0 +1,109 @@
+.logoCon {
+  display: block;
+  width: 100%;
+  margin: 0px 0px 30px 0px;
+}
+.logo {
+  width: 150px;
+}
+.header {
+  background: white;
+  padding: 3.66vw;
+  border-radius: 30px;
+}
+.searchBar {
+  width: 80%;
+  height: 40px;
+  outline: none;
+  display: inline-block;
+  vertical-align: middle;
+  background: none;
+  border: none;
+  color: white;
+}
+.searchIcon {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 50px;
+}
+.searchBarCon {
+  background: black;
+  padding: 10px 10px 10px 3.66vw;
+  border-radius: 2.2vw;
+}
+.movieListContainer {
+  width: 100%;
+  display: flex;
+  margin: 50px 0px;
+  flex-wrap: wrap;
+}
+.placeholderCon {
+  text-align: center;
+  width: 100vw;
+  display: flex;
+  /* background: red; */
+  align-self: center;
+  margin-top: 50px;
+  height: 50vh;
+  align-items: center;
+  justify-content: center;
+}
+.placeholder {
+  width: fit-content;
+  height: 200px;
+  object-fit: contain;
+}
+.fetchedMovies {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* For Tablet */
+@media screen and (max-width: 999px) {
+  .logo {
+    width: 100px;
+  }
+  .header {
+    background: white;
+    padding: 30px;
+    border-radius: 30px;
+  }
+  .searchBarCon {
+    background: black;
+    padding: 10px 10px 10px 30px;
+    border-radius: 25px;
+  }
+}
+
+/* For Mobile */
+@media screen and (max-width: 540px) {
+  .logoCon {
+    text-align: center;
+    margin: 15px 0px;
+  }
+  .header {
+    background: white;
+    padding: 3.62vw;
+    border-radius: 30px;
+  }
+
+  .logo {
+    width: 36.23vw;
+  }
+
+  .searchBarCon {
+    background: black;
+    padding: 10px 10px 10px 4.8vw;
+    border-radius: 7.25vw;
+  }
+  .searchIcon {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 30px;
+  }
+  .searchIcon {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+  }
+}
